@@ -57,6 +57,7 @@ class App extends Component {
         <input
           type="text"
           onChange={(event) => this.changeHandler(event)}
+          value={this.state.sentence}
         ></input>
         <p>
           <h1>{this.state.sentence.length}</h1>
